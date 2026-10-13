@@ -1,0 +1,5 @@
+{
+  "name": "example-service",
+  "environment": "development",
+  "port": 8080
+}
