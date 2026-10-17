@@ -15,5 +15,6 @@ ci = { depends-on = ["lint", "test", "validate-config"] }
 python = ">=3.10,<4"
 
 [pypi-dependencies]
+growingcicd = { path = ".", editable = true }
 pytest = ">=8,<9"
 ruff = ">=0.11,<1"
